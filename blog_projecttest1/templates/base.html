@@ -1,0 +1,151 @@
+{% load staticfiles %}
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>{{SITE_NAME}}</title>
+<meta name="keywords" content="{{SITE_NAME}}" />
+<meta name="description" content="{{SITE_DESC}}" />
+<link href="{% static 'css/base.css' %}"  rel="stylesheet">
+<link href="{% static 'css/index.css' %}" rel="stylesheet">
+  <link href="{% static 'css/iconfont.css' %}" rel="stylesheet">
+<script type="text/javascript" src="{%static 'js/jquery.min.js' %}"></script>
+<script type="text/javascript" src="{%static 'js/sliders.js' %}"></script>
+
+<script src="{% static 'js/modernizr.js' %}"></script>
+
+</head>
+
+<body>
+
+<header>
+  <div class="logo">
+      <h1>{{SITE_NAME}}</h1>
+      <p>{{SITE_DESC}}</p>
+  </div>
+
+
+  <nav id="topnav" class="f_r">
+    <ul>
+      {% for category in category_list %}
+      <a href="{{category.link}}">{{category.name}}</a>
+      {% endfor %}
+    </ul>
+    <script src="{%static 'js/nav.js' %}"></script>
+  </nav>
+
+
+</header>
+
+<article>
+
+  <div class="l_box f_l">
+
+      {% block left_content %}{% endblock %}
+
+  </div>
+
+  <div class="r_box f_r">
+    <div class="tit01">
+      <h3>关注我</h3>
+      <div class="gzwm">
+        <ul>
+          <li>
+            <a  href="https://weibo.com/u/2942274875/home?wvr=5" target="_blank">
+              <span class="iconfont icon-tubiao214"></span><br>新浪
+            </a>
+          </li>
+          <li>
+            <a  href="https://github.com/Liangyuefeng" target="_blank">
+              <span class="iconfont icon-github"></span><br>github
+            </a>
+          </li>
+          <li>
+            <a  href="https://www.zhihu.com/people/liang-yue-feng-58/activities" target="_blank">
+              <span class="iconfont icon-zhihu"></span><br>知乎
+            </a>
+          </li>
+          <li>
+            <a  href="https://my.csdn.net/" target="_blank">
+              <span class="iconfont icon-csdn"></span><br>csdn
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!--tit01 end-->
+    <div class="moreSelect" id="lp_right_select">
+
+      {% include 'right_slide.html' %}
+
+    </div>
+
+    <div class="links">
+      <h3>友情链接</h3>
+      <ul>
+        <li><a href="https://www.csdn.net/" target="_blank">csdn</a></li>
+        <li><a href="https://juejin.im/" target="_blank">掘金</a></li>
+        <li><a href="http://www.jobbole.com/" target="_blank">伯乐在线</a></li>
+        <li><a href="https://segmentfault.com/" target="_blank">SegmentFault</a></li>
+        <li><a href="https://www.baidu.com/" target="_blank">百度</a></li>
+        <li><a href="https://www.jianshu.com/" target="_blank">简书</a></li>
+      </ul>
+    </div>
+    <iframe frameborder="no"
+          border="0"
+          marginwidth="0"
+          marginheight="0"
+          width=300
+          height=300
+          src="//music.163.com/outchain/player?type=0&id=2246418673&auto=0&height=430">
+
+  </iframe>
+  </div>
+  <div class="r_box f_r">
+
+  </div>
+
+</article>
+  <!--r_box end -->
+
+<footer>
+  <p class="ft-copyright">LYF个人网站</p>
+  <div id="tbox"><a id="gotop" onclick="pageScroll()"></a> </div>
+</footer>
+
+<script>
+window.onload = function ()
+  {
+    var oLi = document.getElementById("tab").getElementsByTagName("li");
+    var oUl = document.getElementById("ms-main").getElementsByTagName("div");
+
+    for(var i = 0; i < oLi.length; i++)
+    {
+      oLi[i].index = i;
+      oLi[i].onmouseover = function ()
+      {
+        for(var n = 0; n < oLi.length; n++) oLi[n].className="";
+        this.className = "cur";
+        for(var n = 0; n < oUl.length; n++) oUl[n].style.display = "none";
+        oUl[this.index].style.display = "block"
+      }
+    }
+  }
+  function pageScroll(){
+      //把内容滚动指定的像素数（第一个参数向右滚动的像素数，第二个参数向下滚动的像素数）
+      window.scrollBy(0,-100);
+      //延时递归调用，模拟滚动向上效果
+      scrolldelay = setTimeout('pageScroll()',20);
+      // 获取scrollTop值，声明了DTD的标准网页取document.documentElement.scrollTop，
+      // 否则取document.body.scrollTop；因为二者只有一个会生效，另一个就恒为0，所以取和值
+      // 可以得到网页的真正的scrollTop值
+      var sTop=document.documentElement.scrollTop+document.body.scrollTop;
+      //判断当页面到达顶部，取消延时代码（否则页面滚动到顶部会无法再向下正常浏览页面）
+      if(sTop==0) clearTimeout(scrolldelay);
+  }
+</script>
+
+</body>
+
+</html>

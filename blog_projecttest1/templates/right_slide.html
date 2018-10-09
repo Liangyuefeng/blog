@@ -1,0 +1,42 @@
+<!--{% load staticfiles %}-->
+
+<div class="ms-top">
+      <div>
+        <ul class="hd" id="tab">
+          <li class="cur"><a href="https://www.douban.com/tag/%E7%A8%8B%E5%BA%8F%E5%91%98/book" target="_blank">书籍推荐</a></li>
+          <li><a href="https://music.douban.com/tag/%E5%91%A8%E6%9D%B0%E4%BC%A6" target="_blank">音乐推荐</a></li>
+          <li><a href="https://movie.douban.com/chart" target="_blank">电影推荐</a></li>
+        </ul>
+      </div>
+
+      <div class="ms-main" id="ms-main">
+
+        <div style="display: block;" class="bd bd-news" >
+          <ul>
+            {%for recommend in doubanrecom_list%}
+            <li><a href="{{recommend.link}}" target="_blank">{{recommend.title}}</a></li>
+            {%endfor%}
+          </ul>
+        </div>
+
+        <div  class="bd bd-news">
+          <ul>
+            {%for recommend in csdnrecom_list%}
+            <li><a href="{{recommend.link}}" target="_blank">{{recommend.title}}</a></li>
+            {%endfor%}
+          </ul>
+        </div>
+
+
+        <div class="bd bd-news">
+          <ul>
+            {%for recommend in funrecom_list%}
+            <li><a href="{{recommend.link}}" target="_blank">{{recommend.title}}</a></li>
+            {%endfor%}
+          </ul>
+        </div>
+
+
+      </div>
+      <!--ms-main end -->
+</div>

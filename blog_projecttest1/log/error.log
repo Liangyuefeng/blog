@@ -1,0 +1,71 @@
+2018-05-26 18:49:20,669 [Thread-2:6936] [blog.views:32] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'values'
+2018-05-26 18:49:25,280 [Thread-5:5832] [blog.views:32] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'values'
+2018-05-26 18:53:39,940 [Thread-2:5028] [blog.views:32] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'values'
+2018-05-26 19:10:55,835 [Thread-2:6664] [blog.views:32] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'values'
+2018-05-26 19:11:43,232 [Thread-5:1172] [blog.views:32] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'values'
+2018-05-27 00:08:51,486 [Thread-2:4196] [blog.views:32] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'values'
+2018-05-27 00:09:44,115 [Thread-7:4492] [blog.views:32] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'values'
+2018-05-27 00:15:26,490 [Thread-15:800] [blog.views:32] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'values'
+2018-05-27 00:19:51,577 [Thread-44:6516] [blog.views:32] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'values'
+2018-05-27 00:19:59,235 [Thread-45:32] [blog.views:32] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'values'
+2018-05-27 00:21:07,145 [Thread-51:192] [blog.views:32] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'values'
+2018-05-27 00:30:41,590 [Thread-57:212] [blog.views:32] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'values'
+2018-05-27 00:31:48,596 [Thread-63:7124] [blog.views:32] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'values'
+2018-05-27 00:31:51,937 [Thread-64:6632] [blog.views:32] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'values'
+2018-05-27 00:42:37,710 [Thread-2:216] [blog.views:33] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'values'
+2018-05-27 00:42:43,804 [Thread-3:2260] [blog.views:33] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'values'
+2018-05-27 00:48:58,364 [Thread-2:4932] [blog.views:34] [views:index] [ERROR]- 'ArticleManager' object has no attribute 'values'
+2018-05-27 00:53:16,790 [Thread-2:6928] [blog.views:34] [views:index] [ERROR]- type object 'Article' has no attribute 'object'
+2018-05-27 00:54:22,059 [Thread-2:3588] [blog.views:34] [views:index] [ERROR]- type object 'Article' has no attribute 'object'
+2018-05-27 01:19:29,609 [Thread-2:3368] [blog.views:44] [views:index] [ERROR]- type object 'Article' has no attribute 'object'
+2018-05-27 01:54:18,970 [Thread-2:428] [blog.views:30] [views:index] [ERROR]- type object 'Article' has no attribute 'object'
+2018-05-27 01:54:43,776 [Thread-8:4032] [blog.views:30] [views:index] [ERROR]- type object 'Article' has no attribute 'object'
+2018-05-27 01:56:24,800 [Thread-2:7420] [blog.views:30] [views:index] [ERROR]- type object 'Article' has no attribute 'object'
+2018-05-27 01:59:12,647 [Thread-8:7724] [blog.views:30] [views:index] [ERROR]- type object 'Article' has no attribute 'object'
+2018-05-27 02:00:45,383 [Thread-2:3812] [blog.views:30] [views:index] [ERROR]- type object 'Article' has no attribute 'object'
+2018-05-27 02:03:33,880 [Thread-2:2156] [blog.views:30] [views:index] [ERROR]- type object 'Article' has no attribute 'object'
+2018-05-27 02:09:09,047 [Thread-2:7408] [blog.views:30] [views:index] [ERROR]- type object 'Article' has no attribute 'object'
+2018-05-27 09:56:08,520 [Thread-2:5500] [blog.views:30] [views:index] [ERROR]- type object 'Article' has no attribute 'object'
+2018-05-27 09:56:54,880 [Thread-8:2240] [blog.views:30] [views:index] [ERROR]- type object 'Article' has no attribute 'object'
+2018-05-27 10:08:17,515 [Thread-14:3436] [blog.views:30] [views:index] [ERROR]- type object 'Article' has no attribute 'object'
+2018-05-28 01:13:17,730 [Thread-13:6416] [blog.views:37] [views:index] [ERROR]- local variable 'article_list' referenced before assignment
+2018-05-28 12:02:45,965 [Thread-30:2728] [blog.views:29] [views:index] [ERROR]- invalid literal for int() with base 10: ''
+2018-05-28 12:03:27,757 [Thread-3:3688] [blog.views:29] [views:index] [ERROR]- invalid literal for int() with base 10: ''
+2018-05-28 12:06:05,844 [Thread-11:1184] [blog.views:29] [views:index] [ERROR]- invalid literal for int() with base 10: ''
+2018-05-28 12:07:17,127 [Thread-13:5728] [blog.views:29] [views:index] [ERROR]- invalid literal for int() with base 10: ''
+2018-05-28 17:02:28,615 [Thread-2:5464] [blog.views:30] [views:index] [ERROR]- 'QuerySet' object has no attribute 'increase_views'
+2018-05-28 17:02:44,949 [Thread-14:3872] [blog.views:30] [views:index] [ERROR]- 'QuerySet' object has no attribute 'increase_views'
+2018-05-28 17:02:50,043 [Thread-16:6004] [blog.views:30] [views:index] [ERROR]- 'QuerySet' object has no attribute 'increase_views'
+2018-05-28 17:04:23,503 [Thread-33:928] [blog.views:30] [views:index] [ERROR]- 'QuerySet' object has no attribute 'increase_views'
+2018-05-28 17:10:14,602 [Thread-2:3100] [blog.views:30] [views:index] [ERROR]- 'WSGIRequest' object has no attribute 'post'
+2018-05-28 17:10:21,828 [Thread-8:3876] [blog.views:30] [views:index] [ERROR]- 'WSGIRequest' object has no attribute 'post'
+2018-05-28 17:22:20,449 [Thread-2:3784] [blog.views:30] [views:index] [ERROR]- 'WSGIRequest' object has no attribute 'post'
+2018-05-28 17:27:57,445 [Thread-2:4420] [blog.views:30] [views:index] [ERROR]- 'WSGIRequest' object has no attribute 'post'
+2018-05-28 17:28:11,731 [Thread-8:6236] [blog.views:30] [views:index] [ERROR]- 'WSGIRequest' object has no attribute 'post'
+2018-05-28 17:42:18,229 [Thread-13:5108] [blog.views:30] [views:index] [ERROR]- 'WSGIRequest' object has no attribute 'post'
+2018-05-28 17:46:39,655 [Thread-2:5012] [blog.views:31] [views:index] [ERROR]- 'WSGIRequest' object has no attribute 'post'
+2018-05-28 17:46:43,404 [Thread-5:6388] [blog.views:31] [views:index] [ERROR]- 'WSGIRequest' object has no attribute 'post'
+2018-05-28 17:46:58,484 [Thread-6:4928] [blog.views:31] [views:index] [ERROR]- 'WSGIRequest' object has no attribute 'post'
+2018-05-28 17:47:09,721 [Thread-10:7132] [blog.views:31] [views:index] [ERROR]- 'WSGIRequest' object has no attribute 'post'
+2018-05-28 17:48:00,421 [Thread-2:6832] [blog.views:31] [views:index] [ERROR]- 'QuerySet' object has no attribute 'increase_views'
+2018-05-28 17:48:19,369 [Thread-2:6624] [blog.views:32] [views:index] [ERROR]- 'WSGIRequest' object has no attribute 'post'
+2018-05-28 17:48:22,827 [Thread-4:1728] [blog.views:32] [views:index] [ERROR]- 'WSGIRequest' object has no attribute 'post'
+2018-05-28 17:48:47,919 [Thread-2:4108] [blog.views:32] [views:index] [ERROR]- 'QuerySet' object has no attribute 'increase_views'
+2018-05-28 17:49:00,031 [Thread-2:4648] [blog.views:34] [views:index] [ERROR]- 'QuerySet' object has no attribute 'increase_views'
+2018-05-28 17:49:13,465 [Thread-5:6140] [blog.views:34] [views:index] [ERROR]- 'QuerySet' object has no attribute 'increase_views'
+2018-05-28 17:50:20,639 [Thread-24:6556] [blog.views:34] [views:index] [ERROR]- 'QuerySet' object has no attribute 'increase_views'
+2018-05-28 17:54:23,723 [Thread-35:6700] [blog.views:34] [views:index] [ERROR]- 'QuerySet' object has no attribute 'increase_views'
+2018-05-28 20:22:07,554 [Thread-47:4020] [blog.views:34] [views:index] [ERROR]- 'QuerySet' object has no attribute 'increase_views'
+2018-06-05 22:59:20,442 [Thread-8:6756] [blog.views:45] [views:AI] [ERROR]- Cannot resolve keyword 'i' into field. Choices are: click_count, desc, id, link, title
+2018-06-08 00:56:38,478 [Thread-85:4820] [blog.views:45] [views:AI] [ERROR]- Cannot resolve keyword 'i' into field. Choices are: click_count, desc, id, link, title
+2018-06-08 00:57:07,368 [Thread-87:4132] [blog.views:45] [views:AI] [ERROR]- Cannot resolve keyword 'i' into field. Choices are: click_count, desc, id, link, title
+2018-06-08 00:57:34,945 [Thread-93:7656] [blog.views:45] [views:AI] [ERROR]- Cannot resolve keyword 'i' into field. Choices are: click_count, desc, id, link, title
+2018-06-08 00:59:59,976 [Thread-2:7544] [blog.views:45] [views:AI] [ERROR]- Cannot resolve keyword 'i' into field. Choices are: click_count, desc, id, link, title
+2018-06-08 01:04:44,266 [Thread-33:5300] [blog.views:45] [views:AI] [ERROR]- Cannot resolve keyword 'i' into field. Choices are: click_count, desc, id, link, title
+2018-06-08 01:06:39,719 [Thread-42:2340] [blog.views:45] [views:AI] [ERROR]- Cannot resolve keyword 'i' into field. Choices are: click_count, desc, id, link, title
+2018-06-08 01:07:09,358 [Thread-44:5984] [blog.views:45] [views:AI] [ERROR]- Cannot resolve keyword 'i' into field. Choices are: click_count, desc, id, link, title
+2018-06-08 01:10:26,344 [Thread-54:7704] [blog.views:45] [views:AI] [ERROR]- Cannot resolve keyword 'i' into field. Choices are: click_count, desc, id, link, title
+2018-06-08 01:19:14,923 [Thread-109:604] [blog.views:45] [views:AI] [ERROR]- Cannot resolve keyword 'i' into field. Choices are: click_count, desc, id, link, title
+2018-06-08 01:19:52,291 [Thread-111:6604] [blog.views:45] [views:AI] [ERROR]- Cannot resolve keyword 'i' into field. Choices are: click_count, desc, id, link, title
+2018-06-08 01:21:23,506 [Thread-112:5752] [blog.views:45] [views:AI] [ERROR]- Cannot resolve keyword 'i' into field. Choices are: click_count, desc, id, link, title
+2018-06-08 01:26:02,120 [Thread-125:6904] [blog.views:45] [views:AI] [ERROR]- Cannot resolve keyword 'i' into field. Choices are: click_count, desc, id, link, title
