@@ -1,2 +1,2 @@
-# base on python Django design web blog
-private blog
+# Private Blog
+base on python Django design web blog
